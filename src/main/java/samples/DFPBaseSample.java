@@ -8,7 +8,7 @@ public class DFPBaseSample {
 
     public void cleanText(){
         DFPBaseSample inst = new DFPBaseSample();
-
+        inst.normalizeWhiteSpace(); //Left
         inst.removeComments();
 
     }
@@ -47,6 +47,7 @@ public class DFPBaseSample {
     }
 
     public String getText(){
+        System.out.println("getting text");
         return text;
     }
 
