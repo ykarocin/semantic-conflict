@@ -10,6 +10,7 @@ public class DFPBaseSample {
         DFPBaseSample inst = new DFPBaseSample();
 
         inst.removeComments();
+        inst.removeDuplicateWords(); //Right
 
     }
 
@@ -51,6 +52,7 @@ public class DFPBaseSample {
     }
 
     public void setText(String text){
+        print("setting text");
         this.text = text;
     }
 
