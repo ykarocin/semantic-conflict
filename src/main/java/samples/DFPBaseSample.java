@@ -10,7 +10,7 @@ public class DFPBaseSample {
         DFPBaseSample inst = new DFPBaseSample();
 
         inst.removeComments();
-
+        inst.removeDuplicateWords(); //Right
     }
 
     private void normalizeWhiteSpace(){
@@ -51,6 +51,7 @@ public class DFPBaseSample {
     }
 
     public void setText(String text){
+        System.out.println("setting text");
         this.text = text;
     }
 
