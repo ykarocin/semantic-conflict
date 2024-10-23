@@ -1,5 +1,6 @@
 package org.samples;
 
 public class Foo {
-    Integer x = 1;
+    integer x = 2
+    x = 1;
 }
