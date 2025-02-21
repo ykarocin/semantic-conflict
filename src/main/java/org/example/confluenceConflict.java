@@ -1,4 +1,4 @@
-public class Base {
+public class Confluence {
     public static void main(String[] args) {
         int x = 5;
         int y = 10;
