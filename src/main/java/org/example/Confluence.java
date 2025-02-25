@@ -1,3 +1,5 @@
+package org.example;
+
 public class Confluence {
     public static void main(String[] args) {
         int x = 5;
