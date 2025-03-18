@@ -1,6 +1,6 @@
 package org.example;
 
-public class AddOne {
+public class PlusOne {
     public static int AddOne(int var){
         return var++;
     }
