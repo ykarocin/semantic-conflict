@@ -1,11 +1,11 @@
 package org.example;
 
 public class Main {
+    static Foo a = new Foo();
+    static Foo b = new Foo();
     public static void main(String[] args) {
-        int x = 0;
-        int y = 0;
-        y = PlusOne.AddOne(y); //right
-        int z = x + y;
+        PlusOne.AddOne(b); //right
+        int z = a.x + b.x;
         System.out.println(z);
     }
 }
