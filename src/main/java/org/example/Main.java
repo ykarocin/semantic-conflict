@@ -1,13 +1,12 @@
 package org.example;
 
 public class Main {
-    static Example a = new Example();
-    static Example b = new Example();
+    static Example x = new Example();
     public static void main(String[] args) {
 
         System.out.println("divider");
         
-        int z = a.x + b.x;
+        int z = x.a + x.b;
         System.out.println(z);
     }
 }
