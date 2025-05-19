@@ -66,5 +66,6 @@ public class Text {
 
     public void generateReport() {
         countComments();
+        countDupWhitespace(); //current
     }
 }
