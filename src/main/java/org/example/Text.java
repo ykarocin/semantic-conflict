@@ -5,9 +5,11 @@ import java.util.regex.Pattern;
 public class Text {
 
     private String text;
+    private int fixes;
 
     public Text(String text) {
         this.text = text;
+        this.fixes = 0;
     }
 
     public void cleanText(){
@@ -47,7 +49,22 @@ public class Text {
         this.text = result.toString();
     }
 
+    private void countComments() {
+    }
+
+    private void countDupWords() {
+        this.fixes = 2;
+    }
+
+    private void countDupWhitespace() {
+        this.fixes = 1;
+    }
+
     public String getText() {
         return this.text;
+    }
+
+    public void generateReport() {
+        countComments();
     }
 }
