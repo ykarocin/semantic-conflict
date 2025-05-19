@@ -11,6 +11,7 @@ public class Text {
     }
 
     public void cleanText(){
+        normalizeWhiteSpace(); // previous
         removeComments();
     }
 
