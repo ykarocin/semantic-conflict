@@ -65,6 +65,7 @@ public class Text {
     }
 
     public void generateReport() {
+        countDupWords(); //previous
         countComments();
     }
 }
